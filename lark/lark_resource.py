@@ -75,7 +75,7 @@ class LarkResource:
             "data": base64.b64encode(data).decode()
         }
 
-    def _cleanup_old_temp(self, days: int = 7) -> None:
+    def _cleanup_old_temp(self, days: int = 2) -> None:
         """Delete temp folders older than specified days"""
         if not TEMP_DIR.exists():
             return
