@@ -67,6 +67,7 @@ async def main():
         system_prompt=SYSTEM_PROMPT,
         model="haiku",
         max_buffer_size=1024*1024*10,
+        setting_sources=["user", "project"],
         allowed_tools=["Task", "Bash", "Glob", "Grep", "Read", "WebFetch", "WebSearch", "Skill", "TaskOutput", "TodoWrite"],
         disallowed_tools=["Edit", "Write", "NotebookEdit", "EnterPlanMode", "ExitPlanMode", "AskUserQuestion", "KillShell"],
     )
