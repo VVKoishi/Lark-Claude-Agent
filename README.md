@@ -1,12 +1,14 @@
 # Lark Claude Agent
 
+English | [中文](README_zh.md)
+
 A Claude agent that integrates with Lark (Feishu).
 
 ## Features
 
-- Bidirectional messaging via WebSocket
-- Streaming card replies with typing effect
 - Text, image, file, and rich text support
+- Understands context from replied messages
+- Streaming card replies with typing effect
 
 ## Architecture
 
